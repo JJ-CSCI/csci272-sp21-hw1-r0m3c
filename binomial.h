@@ -9,7 +9,7 @@ public:
   Binomial(); Binomial(float a); Binomial(float a, int b);
   Binomial(float a, int b, float c); Binomial(float a, int c, float b, int d);
 
-  float GetPower(int e); float GetCoefficient(int f);
-  float SetPower(int g, int h); int Add(Binomial a);
+  int GetPower(int e); float GetCoefficient(int f);
+  int SetPower(int g, int h); int Add(Binomial a);
   void Multiply(float a); void Multiply(float a, int b);};
 #endif
