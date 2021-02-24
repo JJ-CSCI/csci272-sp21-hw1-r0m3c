@@ -58,6 +58,5 @@ int Binomial::Add(Binomial a) {
     return -1;}
 
 void Binomial::Multiply(float a) {coeff[1] = coeff[1] * a; power[1] = power[1]; coeff[2] = coeff[2] * a; power[2] = power[2];}
-
 void Binomial::Multiply(float a, int b) {coeff[1] = coeff[1] * a; power[1] = power[1] + b; coeff[2] = coeff[2] * a; power[2] = power[2] + b;}
 
