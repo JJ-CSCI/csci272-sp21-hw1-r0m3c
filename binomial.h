@@ -12,5 +12,4 @@ public:
   float GetPower(int e); float GetCoefficient(int f);
   float SetPower(int g, int h); int Add(Binomial a);
   void Multiply(float a); void Multiply(float a, int b);};
-
 #endif
